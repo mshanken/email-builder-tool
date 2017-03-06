@@ -1,0 +1,339 @@
+{
+  "{\"filename\":\"/home/node/node_modules/mjml-video/gulpfile.babel.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/node/node_modules/mjml-video\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.23.1": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "gulp",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "gulp"
+              }
+            ]
+          },
+          {
+            "source": "gulp-babel",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "babel"
+              }
+            ]
+          },
+          {
+            "source": "gulp-watch",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "watch"
+              }
+            ]
+          },
+          {
+            "source": "gulp-rename",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "rename"
+              }
+            ]
+          },
+          {
+            "source": "gulp-util",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "gutil"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          },
+          {
+            "source": "child_process",
+            "imported": [
+              "exec"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "exec",
+                "local": "exec"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/node/node_modules/mjml-video/gulpfile.babel.js",
+      "filenameRelative": "/home/node/node_modules/mjml-video/gulpfile.babel.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "gulpfile.babel.js",
+      "sourceFileName": "gulpfile.babel.js",
+      "sourceRoot": "/home/node/node_modules/mjml-video",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/node/node_modules/mjml-video",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "gulpfile.babel"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _gulp = require('gulp');\n\nvar _gulp2 = _interopRequireDefault(_gulp);\n\nvar _gulpBabel = require('gulp-babel');\n\nvar _gulpBabel2 = _interopRequireDefault(_gulpBabel);\n\nvar _gulpWatch = require('gulp-watch');\n\nvar _gulpWatch2 = _interopRequireDefault(_gulpWatch);\n\nvar _gulpRename = require('gulp-rename');\n\nvar _gulpRename2 = _interopRequireDefault(_gulpRename);\n\nvar _gulpUtil = require('gulp-util');\n\nvar _gulpUtil2 = _interopRequireDefault(_gulpUtil);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nvar _child_process = require('child_process');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar compile = function compile() {\n  _gulp2.default.src('components/**.js').pipe((0, _gulpBabel2.default)()).on('error', _gulpUtil2.default.log).pipe(_gulp2.default.dest('lib')).on('end', function () {\n    return (0, _child_process.exec)('./node_modules/.bin/mjml index.mjml', function (error, stdout) {\n      console.log(stdout);\n      console.log('> MJML compilation finished');\n    });\n  });\n};\n\n_gulp2.default.task('build', compile);\n\n_gulp2.default.task('watch', function () {\n  compile();\n  return (0, _gulpWatch2.default)(['components/**.js', 'index.mjml'], compile);\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImd1bHBmaWxlLmJhYmVsLmpzIl0sIm5hbWVzIjpbImNvbXBpbGUiLCJzcmMiLCJwaXBlIiwib24iLCJsb2ciLCJkZXN0IiwiZXJyb3IiLCJzdGRvdXQiLCJjb25zb2xlIiwidGFzayJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUVBLElBQU1BLFVBQVUsU0FBVkEsT0FBVSxHQUFNO0FBQ3BCLGlCQUFLQyxHQUFMLENBQVMsa0JBQVQsRUFDR0MsSUFESCxDQUNRLDBCQURSLEVBRUdDLEVBRkgsQ0FFTSxPQUZOLEVBRWUsbUJBQU1DLEdBRnJCLEVBR0dGLElBSEgsQ0FHUSxlQUFLRyxJQUFMLENBQVUsS0FBVixDQUhSLEVBSUdGLEVBSkgsQ0FJTSxLQUpOLEVBSWE7QUFBQSxXQUFNLHlCQUNmLHFDQURlLEVBRWYsVUFBQ0csS0FBRCxFQUFRQyxNQUFSLEVBQW1CO0FBQ2pCQyxjQUFRSixHQUFSLENBQVlHLE1BQVo7QUFDQUMsY0FBUUosR0FBUixDQUFZLDZCQUFaO0FBQ0QsS0FMYyxDQUFOO0FBQUEsR0FKYjtBQVdELENBWkQ7O0FBY0EsZUFBS0ssSUFBTCxDQUFVLE9BQVYsRUFBbUJULE9BQW5COztBQUVBLGVBQUtTLElBQUwsQ0FBVSxPQUFWLEVBQW1CLFlBQU07QUFDdkJUO0FBQ0EsU0FBTyx5QkFBTSxDQUNYLGtCQURXLEVBRVgsWUFGVyxDQUFOLEVBR0pBLE9BSEksQ0FBUDtBQUlELENBTkQiLCJmaWxlIjoiZ3VscGZpbGUuYmFiZWwuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvbm9kZS9ub2RlX21vZHVsZXMvbWptbC12aWRlbyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBndWxwIGZyb20gJ2d1bHAnXG5pbXBvcnQgYmFiZWwgZnJvbSAnZ3VscC1iYWJlbCdcbmltcG9ydCB3YXRjaCBmcm9tICdndWxwLXdhdGNoJ1xuaW1wb3J0IHJlbmFtZSBmcm9tICdndWxwLXJlbmFtZSdcbmltcG9ydCBndXRpbCBmcm9tICdndWxwLXV0aWwnXG5pbXBvcnQgcGF0aCBmcm9tICdwYXRoJ1xuaW1wb3J0IHsgZXhlYyB9IGZyb20gJ2NoaWxkX3Byb2Nlc3MnXG5cbmNvbnN0IGNvbXBpbGUgPSAoKSA9PiB7XG4gIGd1bHAuc3JjKCdjb21wb25lbnRzLyoqLmpzJylcbiAgICAucGlwZShiYWJlbCgpKVxuICAgIC5vbignZXJyb3InLCBndXRpbC5sb2cpXG4gICAgLnBpcGUoZ3VscC5kZXN0KCdsaWInKSlcbiAgICAub24oJ2VuZCcsICgpID0+IGV4ZWMoXG4gICAgICAnLi9ub2RlX21vZHVsZXMvLmJpbi9tam1sIGluZGV4Lm1qbWwnLFxuICAgICAgKGVycm9yLCBzdGRvdXQpID0+IHtcbiAgICAgICAgY29uc29sZS5sb2coc3Rkb3V0KVxuICAgICAgICBjb25zb2xlLmxvZygnPiBNSk1MIGNvbXBpbGF0aW9uIGZpbmlzaGVkJylcbiAgICAgIH1cbiAgICApKVxufVxuXG5ndWxwLnRhc2soJ2J1aWxkJywgY29tcGlsZSlcblxuZ3VscC50YXNrKCd3YXRjaCcsICgpID0+IHtcbiAgY29tcGlsZSgpXG4gIHJldHVybiB3YXRjaChbXG4gICAgJ2NvbXBvbmVudHMvKiouanMnLFxuICAgICdpbmRleC5tam1sJyxcbiAgXSwgY29tcGlsZSlcbn0pXG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "gulpfile.babel.js"
+      ],
+      "names": [
+        "compile",
+        "src",
+        "pipe",
+        "on",
+        "log",
+        "dest",
+        "error",
+        "stdout",
+        "console",
+        "task"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AAEA,IAAMA,UAAU,SAAVA,OAAU,GAAM;AACpB,iBAAKC,GAAL,CAAS,kBAAT,EACGC,IADH,CACQ,0BADR,EAEGC,EAFH,CAEM,OAFN,EAEe,mBAAMC,GAFrB,EAGGF,IAHH,CAGQ,eAAKG,IAAL,CAAU,KAAV,CAHR,EAIGF,EAJH,CAIM,KAJN,EAIa;AAAA,WAAM,yBACf,qCADe,EAEf,UAACG,KAAD,EAAQC,MAAR,EAAmB;AACjBC,cAAQJ,GAAR,CAAYG,MAAZ;AACAC,cAAQJ,GAAR,CAAY,6BAAZ;AACD,KALc,CAAN;AAAA,GAJb;AAWD,CAZD;;AAcA,eAAKK,IAAL,CAAU,OAAV,EAAmBT,OAAnB;;AAEA,eAAKS,IAAL,CAAU,OAAV,EAAmB,YAAM;AACvBT;AACA,SAAO,yBAAM,CACX,kBADW,EAEX,YAFW,CAAN,EAGJA,OAHI,CAAP;AAID,CAND",
+      "file": "gulpfile.babel.js",
+      "sourceRoot": "/home/node/node_modules/mjml-video",
+      "sourcesContent": [
+        "import gulp from 'gulp'\nimport babel from 'gulp-babel'\nimport watch from 'gulp-watch'\nimport rename from 'gulp-rename'\nimport gutil from 'gulp-util'\nimport path from 'path'\nimport { exec } from 'child_process'\n\nconst compile = () => {\n  gulp.src('components/**.js')\n    .pipe(babel())\n    .on('error', gutil.log)\n    .pipe(gulp.dest('lib'))\n    .on('end', () => exec(\n      './node_modules/.bin/mjml index.mjml',\n      (error, stdout) => {\n        console.log(stdout)\n        console.log('> MJML compilation finished')\n      }\n    ))\n}\n\ngulp.task('build', compile)\n\ngulp.task('watch', () => {\n  compile()\n  return watch([\n    'components/**.js',\n    'index.mjml',\n  ], compile)\n})\n"
+      ]
+    },
+    "mtime": 1488401772000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "email-builder-tool",
+  "version": "1.0.0",
+  "description": "Email Builder Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "browsersync": "browser-sync start --proxy 'localhost:9000' --files 'dist/*.html' --no-open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "unknown"
+  },
+  "keywords": [
+    "njml",
+    "express",
+    "sass",
+    "email"
+  ],
+  "author": "M. Shanken Communications, Inc.",
+  "contributors": [
+    "Edison Leon <eleon@mshanken.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mjml": "^3.3.0-beta",
+    "mjml-chart": "^3.0.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-aws-s3": "~0.8.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-htmlmin": "~0.2.0",
+    // "grunt-contrib-imagemin": "~0.6.1",
+    // "grunt-contrib-jshint": "~0.10.0",
+    // "grunt-contrib-less": "~0.11.0",
+    // "grunt-contrib-watch": "~0.6.1",
+    // "grunt-express": "~1.0.0",
+    "grunt-frep": "^0.1.2",
+    // "grunt-html-build": "^0.3.2",
+    "grunt-litmus": "~0.1.4",
+    // "grunt-md2html": "^0.2.1",
+    // "grunt-premailer": "~0.2.10",
+    "grunt-s3": "^0.2.0-alpha.3",
+    "load-grunt-configs": "^0.4.3",
+    "load-grunt-tasks": "~0.4.0",
+    "time-grunt": "~0.3.1"
+  }
+}

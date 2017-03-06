@@ -1,0 +1,7 @@
+.DS_Store
+.bash_history
+.npm/
+.v8flags.5.1.281.89.undefined.json
+archives/
+node_modules/
+assets/data
