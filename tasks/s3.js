@@ -34,7 +34,7 @@ module.exports = {
     download: [
       {
         src: 'promo/html-archive/<%= filename %>',
-        dest: 'web/test<%= filename %>',
+        dest: 'web/<%= filename %>',
       }
     ]
   }

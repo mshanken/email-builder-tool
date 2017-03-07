@@ -15,7 +15,7 @@ All you need to run this builder is docker.
 
 	* Now you can start building your email
 	* Once you are done with your mjml file use the following to convert into html ```./node_modules/.bin/mjml web/newemail-template.mjml -o dist/index.html``` you can use this command instead ```./node_modules/.bin/mjml -w web/newemail-template.mjml -o dist/index.html``` to keep working in new change with out runing the command before everytime.
-	* Run ```grunt export``` this will drop all email assets (images and html for archive purposes) into S3 (if see errors ask the developer as you need an access key)
-	* Run ```grunt process``` to replace local path to S3.
+	* Run ```grunt export``` this will drop all email assets (images) and archives the created templates into S3 for future use (if see errors ask the developer as you need an access key)
+	* Run ```grunt process``` to replace local path to absolute path (to S3).
 	* Run ```grunt clear``` to remove and clear main folder, You should always clear your working directory after you are done with a email
-	* Run ```grunt import --filename="archived-email-you-want-to-work-with-again.mjml"```
+	* Run ```grunt import --filename="archived-email-you-want-to-work-with-again.mjml"``` to bring back archived creative for updating or reusing (renaming is recommnded after importing it.)
