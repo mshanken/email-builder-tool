@@ -2,7 +2,7 @@
 
 Create emails with [MJML](https://mjml.io/documentation). Clone this repo to start using this tool for creating emails
 
-This builder has a potential to grow and become a great tool once you master it. You can create templates and layouts that you can use later in a email project.
+This builder has a potential to grow and become a great tool once you master it. You can create templates and layouts that you can use later in an email project.
 
 All you need to run this builder is docker.
 
