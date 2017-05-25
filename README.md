@@ -1,4 +1,4 @@
-#Email buider Tool
+# Email buider Tool
 
 Create emails with [MJML](https://mjml.io/documentation). Clone this repo to start using this tool for creating emails
 
@@ -6,7 +6,7 @@ This builder has a potential to grow and become a great tool once you master it.
 
 All you need to run this builder is docker.
 
-##How it works
+## How it works
 
 - Clone this repo in your macine and then cd into it
 - Run ```docker-compose up -d``` to start, thic command will install all dependencies to run MJML and other tool to create emails
@@ -14,7 +14,7 @@ All you need to run this builder is docker.
 - Run ```docker-compose exec web /bin/bash``` to access docker machine from terminal
 
 	* Now you can start building your email
-	* Once you are done with your mjml file use the following to convert into html ```./node_modules/.bin/mjml web/newemail-template.mjml -o dist/index.html``` you can use this command instead ```./node_modules/.bin/mjml -w web/newemail-template.mjml -o dist/index.html``` to keep working in new change with out runing the command before everytime.
+	* Once you are done with your mjml file use the following to convert into html ```./node_modules/.bin/mjml web/newemail-template.mjml -o dist/index.html``` you can use this command instead ```./node_modules/.bin/mjml -w web/newemail-template.mjml -o dist/newemail-template.html``` (replace * as file name for multiple files) to keep working in new change with out runing the command before everytime.
 	* Run ```grunt export``` this will drop all email assets (images) and archives the created templates into S3 for future use (if see errors ask the developer as you need an access key)
 	* Run ```grunt process``` to replace local path to absolute path (to S3).
 	* Run ```grunt clear``` to remove and clear main folder, You should always clear your working directory after you are done with a email

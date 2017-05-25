@@ -5,3 +5,5 @@
 archives/
 node_modules/
 assets/data
+web/
+dist/
