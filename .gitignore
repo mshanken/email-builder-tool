@@ -1,9 +1,57 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Maven
+log/
+target/
+
+# Node
+node_modules/
+bower_components/
+
+# Vagrant Puppet Chef
+.vagrant
+.kitchen
+Berksfile.lock
+
+# Project ignored files by git
+cache/
+log/
+content-cache/
+content_cache.lock
+Gemfile.lock
+.buildpath
+lib/SysConfig.config.php
+web/webgrind/
+web/phpinfo.php
+
+# For boilerplate-tool
+npm-debug.log
 .bash_history
+.cache
+.local
+www/
 .npm/
-.v8flags.5.1.281.89.undefined.json
 archives/
 node_modules/
 assets/data
 web/
 dist/
+node_modules/
+lib/

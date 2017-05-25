@@ -1,5 +1,6 @@
 {
   "packages": [
-    "./node_modules/mjml-chart/lib"
+    "./node_modules/mjml-chart/lib",
+    "./custom-components/mjml-component-boilerplate/lib/MjColumnImageText.js"
   ]
 }
