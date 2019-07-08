@@ -24,20 +24,20 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.14.1",
-    "mjml": "^3.3.0-beta",
-    "mjml-chart": "^3.0.0"
+    "mjml": "^4.2.1",
+    "mjml-chart": "^5.0.0"
   },
   "devDependencies": {
-    "grunt": "~0.4.4",
-    "grunt-aws-s3": "~0.8.1",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-copy": "^0.5.0",
-    "grunt-contrib-htmlmin": "~0.2.0",
+    "grunt": "^1.0.3",
+    "grunt-aws-s3": "^2.0.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-htmlmin": "^3.0.0",
     "grunt-frep": "^0.1.2",
-    "grunt-litmus": "~0.1.4",
+    "grunt-litmus": "^0.1.8",
     "grunt-s3": "^0.2.0-alpha.3",
-    "load-grunt-configs": "^0.4.3",
-    "load-grunt-tasks": "~0.4.0",
-    "time-grunt": "~0.3.1"
+    "load-grunt-configs": "^1.0.0",
+    "load-grunt-tasks": "^4.0.0",
+    "time-grunt": "^2.0.0"
   }
 }
